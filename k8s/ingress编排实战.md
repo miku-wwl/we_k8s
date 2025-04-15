@@ -39,7 +39,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: bookinfo.imooc.com
+  - host: bookinfo.com
     http:
       paths:
       - path: /
