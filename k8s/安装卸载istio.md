@@ -9,6 +9,12 @@ export PATH=$PWD/bin:$PATH
 
 istioctl install -y
 
+如果没有负载均衡器, loadbalancer 需要修改istio-ingressgateway 的type为NodePort
+
+kubectl edit svc istio-ingressgateway -n istio-system
+进入修改即可
+
+
 卸载istio
 
 istioctl uninstall -y --purge
