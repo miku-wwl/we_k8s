@@ -1,6 +1,3 @@
-下面是一个简单的Kubernetes Volume使用示例，帮助你理解基本概念。
-
-
 ### **案例1：使用emptyDir Volume**
 **场景**：在Pod中创建一个临时目录，供多个容器共享数据。
 
@@ -167,5 +164,3 @@ spec:
 - **emptyDir**：临时存储，Pod内容器共享，Pod删除时数据丢失。
 - **hostPath**：挂载宿主机目录，用于持久化存储或访问宿主机文件。
 - **volumeMounts**：容器内挂载点配置，需与 `volumes` 部分对应。
-
-如果需要更复杂的Volume类型（如PVC、ConfigMap等），可以继续提问！ 😊
