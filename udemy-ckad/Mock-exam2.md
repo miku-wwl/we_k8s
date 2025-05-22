@@ -287,12 +287,3 @@ type: moon
 
 **Task**  
 Create a PersistentVolume called custom-volume with size: 50MiB reclaim policy:retain, Access Modes: ReadWriteMany and hostPath: /opt/data
-
-
-
-研究用，后续删除:
-
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
