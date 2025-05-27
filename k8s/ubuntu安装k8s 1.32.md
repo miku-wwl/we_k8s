@@ -5,6 +5,8 @@ hostnamectl set-hostname xxx
 第二台：k8s-node1
 第三台：k8s-node2
 
+echo "127.0.0.1 xxxx" >> /etc/hosts
+否则sudo 会卡
 
 k8s 1.32 安装
 https://blog.csdn.net/qq_39839075/article/details/146540947
