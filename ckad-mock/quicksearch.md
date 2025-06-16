@@ -20,6 +20,10 @@ https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
 
 
 --------------------------------------------------------------------
+8、创建 Deployment 并指定环境变量 
+这道题不需要svc
+
+--------------------------------------------------------------------
 9、RBAC授权 
 root@master01:/ckad/prompt-escargot# kubectl get sa -n gorilla
 NAME         SECRETS   AGE
